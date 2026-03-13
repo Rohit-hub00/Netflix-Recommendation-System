@@ -8,7 +8,7 @@ This project is an end-to-end Machine Learning application that provides persona
 
 ### 🛠️ The Technical Deep-Dive 
 
-**1. Data Engineering & "De-infusion**
+**1. Data Engineering**
 
 "The raw Netflix dataset was provided in a "column-infused" format where Movie IDs were headers followed by Customer IDs and Ratings.
 
