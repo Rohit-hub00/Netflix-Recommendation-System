@@ -36,14 +36,13 @@ Using the scikit-surprise library, I implemented Matrix Factorization.
 
 The app is built to be environment-agnostic using Docker.
 
-* Containerization: Forced a Python 3.10-slim environment to ensure compatibility with scikit-surprise and numpy.
-* Port Mapping: Optimized for Hugging Face Spaces on port 7860.
 * Storage: Utilized Git LFS to manage the 28MB+ serialized model file (netflix_model.pkl).
 
 ### 📈 Future Enhancements 
 * [ ] Implement a "Surprise Me" button for exploratory recommendations.
 * [ ] Add movie posters via the TMDB API.
 * [ ] Transition from SVD to Deep Learning-based Neural Collaborative Filtering (NCF).
+* [ ] Containerization: Forced a Python 3.10-slim environment to ensure compatibility with scikit-surprise and numpy.
 
 
 ##### How to Run Locally
